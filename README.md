@@ -11,7 +11,7 @@ npm install --save unisafe
 #### Remove invalid Unicode characters out of your string:
 
 ```javascript
-const unisafe = require('./unisafe');
+const unisafe = require('unisafe');
 
 const goodString = unisafe('Bad unicode string.');
 
@@ -21,7 +21,7 @@ console.log(goodString);
 #### Remove invalid Unicode characters out of your JSON:
 
 ```javascript
-const unisafe = require('./unisafe');
+const unisafe = require('unisafe');
 
 const validJSON = unisafe(`[{ "foo": "Invalid unicode string in JSON." }]`);
 

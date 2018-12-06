@@ -1,6 +1,6 @@
 {
   "name": "unisafe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Remove invalid Unicode characters out of your string and JSON.",
   "keywords": ["unisafe", "invalid json", "bad unicode characters", "safe unicode string", "fix bad json"],
   "main": "libs/unisafe.js",
