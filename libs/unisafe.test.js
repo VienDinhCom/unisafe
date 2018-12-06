@@ -15,7 +15,7 @@ test('Keep ASCII printable characters, horizontal tab, line feed, and carriage r
   expect(unisafe(ASCII)).toBe(ASCII);
 });
 
-test('Remove invalid characters out of JSON string.', () => {
+test('Remove invalid Unicode characters out of JSON string.', () => {
   const data = fs.readFileSync(`${__dirname}/unisafe.test.json`, 'utf8');
   const safeJSON = unisafe(data);
 
