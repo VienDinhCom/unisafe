@@ -1,4 +1,4 @@
-# unisafe - Remove invalid Unicode characters out of your string and JSON.
+# Remove invalid Unicode characters out of your string and JSON with `unisafe`
 
 ### Install
 
